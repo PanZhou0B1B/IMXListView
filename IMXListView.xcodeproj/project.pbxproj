@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10B455D219BD4E3004213EF /* IMMJRefreshIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = A10B455B219BD4E2004213EF /* IMMJRefreshIMP.m */; };
 		A1CFA2522074CF1300DF279C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2512074CF1300DF279C /* AppDelegate.m */; };
 		A1CFA2552074CF1300DF279C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2542074CF1300DF279C /* ViewController.m */; };
 		A1CFA2582074CF1300DF279C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CFA2562074CF1300DF279C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		A1CFA2A42074CF6700DF279C /* IMXTextShowTableReuseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA29B2074CF6700DF279C /* IMXTextShowTableReuseView.m */; };
 		A1CFA2A52074CF6700DF279C /* IMXUITableReuseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA29D2074CF6700DF279C /* IMXUITableReuseView.m */; };
 		A1CFA2A82074D11300DF279C /* IMXLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2A72074D11300DF279C /* IMXLineView.m */; };
+		A20721B5E11F3E2C44CBBE5F /* Pods_IMXListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5845FA05C87B3DFD152B1DE /* Pods_IMXListView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D24A8D77280B52161C7574E /* Pods-IMXListView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXListView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMXListView/Pods-IMXListView.debug.xcconfig"; sourceTree = "<group>"; };
+		88306B69D65E26D2A2B43C68 /* Pods-IMXListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXListView.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMXListView/Pods-IMXListView.release.xcconfig"; sourceTree = "<group>"; };
+		A10B455A219BD499004213EF /* IMRefreshProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMRefreshProtocol.h; sourceTree = "<group>"; };
+		A10B455B219BD4E2004213EF /* IMMJRefreshIMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMJRefreshIMP.m; sourceTree = "<group>"; };
+		A10B455C219BD4E2004213EF /* IMMJRefreshIMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMJRefreshIMP.h; sourceTree = "<group>"; };
 		A1CFA24D2074CF1300DF279C /* IMXListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMXListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CFA2502074CF1300DF279C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1CFA2512074CF1300DF279C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +93,7 @@
 		A1CFA29D2074CF6700DF279C /* IMXUITableReuseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXUITableReuseView.m; sourceTree = "<group>"; };
 		A1CFA2A62074D11300DF279C /* IMXLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXLineView.h; sourceTree = "<group>"; };
 		A1CFA2A72074D11300DF279C /* IMXLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXLineView.m; sourceTree = "<group>"; };
+		B5845FA05C87B3DFD152B1DE /* Pods_IMXListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMXListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20721B5E11F3E2C44CBBE5F /* Pods_IMXListView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +122,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18C4C2DD442EA1FEEF91688B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5845FA05C87B3DFD152B1DE /* Pods_IMXListView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10B4559219BD480004213EF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A10B455C219BD4E2004213EF /* IMMJRefreshIMP.h */,
+				A10B455B219BD4E2004213EF /* IMMJRefreshIMP.m */,
+				A10B455A219BD499004213EF /* IMRefreshProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		A1CFA2442074CF1300DF279C = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +147,8 @@
 				A1CFA2682074CF1300DF279C /* IMXListViewTests */,
 				A1CFA2732074CF1400DF279C /* IMXListViewUITests */,
 				A1CFA24E2074CF1300DF279C /* Products */,
+				A3280BB468F222C601112D67 /* Pods */,
+				18C4C2DD442EA1FEEF91688B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +165,7 @@
 		A1CFA24F2074CF1300DF279C /* IMXListView */ = {
 			isa = PBXGroup;
 			children = (
+				A10B4559219BD480004213EF /* Protocol */,
 				A1CFA28B2074CF6700DF279C /* IMXReuseUIs */,
 				A1CFA2822074CF5100DF279C /* ListView */,
 				A1CFA2502074CF1300DF279C /* AppDelegate.h */,
@@ -223,6 +253,15 @@
 			path = IMXTableReuseView;
 			sourceTree = "<group>";
 		};
+		A3280BB468F222C601112D67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D24A8D77280B52161C7574E /* Pods-IMXListView.debug.xcconfig */,
+				88306B69D65E26D2A2B43C68 /* Pods-IMXListView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1CFA2792074CF1400DF279C /* Build configuration list for PBXNativeTarget "IMXListView" */;
 			buildPhases = (
+				C258ED958F8FBF5A812D9996 /* [CP] Check Pods Manifest.lock */,
 				A1CFA2492074CF1300DF279C /* Sources */,
 				A1CFA24A2074CF1300DF279C /* Frameworks */,
 				A1CFA24B2074CF1300DF279C /* Resources */,
+				1F43712C51D9539FF4FD234B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,12 +392,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F43712C51D9539FF4FD234B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IMXListView/Pods-IMXListView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMXListView/Pods-IMXListView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C258ED958F8FBF5A812D9996 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMXListView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1CFA2492074CF1300DF279C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1CFA2A12074CF6700DF279C /* IMXButtonTableCell.m in Sources */,
+				A10B455D219BD4E3004213EF /* IMMJRefreshIMP.m in Sources */,
 				A1CFA2A52074CF6700DF279C /* IMXUITableReuseView.m in Sources */,
 				A1CFA29E2074CF6700DF279C /* IMXBaseCollectionViewCell.m in Sources */,
 				A1CFA29F2074CF6700DF279C /* IMXBaseTableViewCell.m in Sources */,
@@ -530,6 +613,7 @@
 		};
 		A1CFA27A2074CF1400DF279C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D24A8D77280B52161C7574E /* Pods-IMXListView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +627,7 @@
 		};
 		A1CFA27B2074CF1400DF279C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88306B69D65E26D2A2B43C68 /* Pods-IMXListView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
